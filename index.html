@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LearnMate</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <header>
+    <nav class="navigationBar">
+      <nav id="navigationBar_container">
+        <a href="/" id="LearnMateLogo">learnmate</a>
+        <div class="navigationBarToggle" id="desktopMenu">
+          <ul class="navigationBarMenu">
+            <li class="navigationBarItem">
+              <a href="/">CONTACT US</a>
+            </li>
+            <li class="navigationBarItem">
+              <a href="/">SCHOOLS</a>
+            </li>
+            <li class="buyButton">
+              <a href="/" class="button">BUY</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+  </header>
+  <body>
+    <div id="main">
+      <div id="FirstSection">
+        <h2>CALLING ALL STUDENTS</h2>
+        <!--style by doing FirstSection.h1-->
+        <h1>your learning companion awaits.</h1>
+
+        <div id="greyGradientRect">
+          <!--For grey gradient rectangle-->
+          <div id="homepageImage"></div>
+          <button class="buyButton">BUY</button>
+        </div>
+      </div>
+
+      <div class="SecondSection">
+        <!--create a large rounded grey rectangle-->
+        <h1>Contains all the flavours you'll need to succeed.</h1>
+        <div class="featureSectionToggle" id="desktopMenu">
+          <div id="featureSection">
+            <!--set information to be within a white rounded rectangle-->
+            <div id="learnSection">
+              <!--green gradient background goes here-->
+              <span id="whiteBorder">
+                <span id="learnIcon"></span>
+                <span id="learnInformation">
+                  <div id="ttlLearn">
+                    <span class="regularFeatureText" id="ttlLearnIn"
+                      >Learn in</span
+                    >
+                    <span class="boldFeatureText" id="ttlSeconds">Seconds</span>
+                  </div>
+                  <div id="dsLearn">
+                    With interactive videos and practice quizzes blah blah blah
+                    blah blah blah blah blah blah blah blah blah blah blah blah
+                    blah blah blah
+                  </div>
+                  <div id="examBoardLogos">
+                    <!--Place AQA OCR images here-->
+                  </div>
+                </span>
+                <span id="frmLearnImage">
+                  <!--Image goes here-->
+                </span>
+              </span>
+              <!--when the sizing drops below a certain point, make the white rectangle be separate and below the learn image.-->
+            </div>
+
+            <div id="performanceSection">
+              <div class="backgroundDarker">
+                <!--Both performance and productivity have darker backgrounds, so we use a class-->
+                <span id="performanceImage">
+                  <!--Image goes here-->
+                </span>
+                <span id="performanceInformation">
+                  <span id="PerformanceIcon">
+                    <!--Performance icon goes here-->
+                  </span>
+                  <div id="ttlPerformance">
+                    <!--all text in this title is given color yellow-->
+                    <span class="regularFeatureText">Performance</span>
+                    <span class="boldFeatureText">Tracked</span>
+                  </div>
+                  <div class="descriptionText">
+                    Learnmate calculates and displays your predicted academic
+                    trajectory, promoting self motivation etc blah blah blah
+                    blah blah blah blah blah blah blah blah
+                  </div>
+                </span>
+              </div>
+            </div>
+
+            <div id="TimeOrganiserSection">
+              <div class="backgroundWhite">
+                <!--Both performance and productivity have darker backgrounds, so we use a class-->
+                <span id="frmTOImage">
+                  <!--Image goes here-->
+                </span>
+                <span id="TimeInformation">
+                  <div id="TimeOrganiseIcon">
+                    <!--Icon goes here-->
+                  </div>
+                  <div id="ttlTimeOrganiser">
+                    <!--all text in this title is given color orange-->
+                    <span class="regularFeatureText">Calendar</span>
+                    <span class="boldFeatureText">Remade</span>
+                  </div>
+                  <div class="descriptionText">
+                    LearnMate creates a study timetable for you, saving you time
+                    and effort blah blah blah blah blah blah blah blah blah blah
+                    blah blah blah blah blah blah blah blah
+                  </div>
+                </span>
+              </div>
+            </div>
+
+            <div id="productivitySection">
+              <div class="backgroundDarker">
+                <!--Both performance and productivity have darker backgrounds, so we use a class-->
+                <span id="frmAssignmentsImage">
+                  <!--Image goes here-->
+                </span>
+                <span id="AssignmentsInformation">
+                  <div id="AssignmentsIcon">
+                    <!--Icon goes here-->
+                  </div>
+                  <div id="ttlAssignments">
+                    <!--all text in this title is given color orange-->
+                    <span class="regularFeatureText">Productivity</span>
+                    <span class="boldFeatureText">Boosted</span>
+                  </div>
+                  <div class="descriptionText">
+                    Complete self-defined tasks or assignments set by teachers
+                    in a few clicks blah blah blah blah blah blah blah blah blah
+                    blah blah blah blah blah blah blah blah blah
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <!--has a white background-->
+        <div class="footerInfo">
+          <!--is all the same font-->
+          <div id="mainFooterInfo">
+            <!--is the color black-->
+            <div>[PROTOTYPE]</div>
+            <div>
+              Made entirely by Tye Goulder (excluding icons from flaticon.com)
+            </div>
+          </div>
+          <div id="emailInfo">
+            <span>Business email:</span>
+            <span id="emailText">
+              <!--Links are in blue and underlined-->
+              tcjgoulder@gmail.com
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

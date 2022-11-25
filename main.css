@@ -3,17 +3,12 @@ body {
   font-family: "Darker Grotesque", sans-serif;
 }
 
-.infoContainer {
-}
-
 .container {
   display: flex;
   justify-content: center;
-}
-.trail {
 }
 
 .spacer {
   width: 100%;
   max-width: 480px;
-}
+}/*# sourceMappingURL=main.css.map */

@@ -16,39 +16,45 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <header>
-      <h1 class="navBarItem" , href="#">learnmate</h1>
-
-      <nav>
-        <ul class="navBarItem">
-          <li><a href="#">schools</a></li>
-          <li><a href="#">contact us</a></li>
-          <li><a href="#">BUY</a></li>
-        </ul>
-      </nav>
-    </header>
-
     <div class="container">
+      <header>
+        <a href="#">learnmate</a>
+
+        <nav>
+          <ul>
+            <li><a href="#">schools</a></li>
+            <li><a href="#">contact us</a></li>
+            <li><a href="#">BUY</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!--is the width of the header and changes dynamically-->
       <div class="infoContainer">
-        <!-- gridded-->
-        <section class="hero">
+        <!--is the central 70% area of the container width-->
+        <section class="mainHero">
           <!--Spans from left to right of infocontainer-->
-          <h2>CALLING ALL STUDENTS...</h2>
-          <h1>your learning companion awaits.</h1>
+          <div class="heroTitle">
+            <h2>CALLING ALL STUDENTS...</h2>
+            <h1>your learning companion awaits.</h1>
+          </div>
           <img
             src="/images/frmLearnAndManage.png"
             alt="LearnMate practice screen"
           />
-          <a href="#">Start my free trial</a>
-          <a href="#">LearnMate for mobile</a>
+          <div class="heroMainButtons">
+            <a href="#">Start my free trial</a>
+            <a href="#">LearnMate for mobile</a>
+          </div>
         </section>
 
         <section class="overview">
-          <h1>Combines all the flavours you'll need to succeed.</h1>
-          <h2>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </h2>
+          <div class="Info">
+            <h1>Combines all the flavours you'll need to succeed.</h1>
+            <h2>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h2>
+          </div>
           <div class="iconsContainer">
             <!--fills width of overview, -->
             <div class="iconBed">
@@ -72,7 +78,6 @@
 
         <section class="features">
           <div class="trail">
-            <!--goes until the ending, within performance tracked. other elements go on top-->
             <svg
               width="766"
               height="3902"
@@ -114,20 +119,23 @@
                 </linearGradient>
               </defs>
             </svg>
+            <img
+              src="/images/iconLearnPractice.png"
+              alt="Learn and Practice icon"
+            />
+            <img src="/images/iconTimeOrganiser.png" alt="time Image" />
+            <img src="/images/iconAssignments.png" alt="Assignments icon" />
+            <img src="/images/iconPerformance.png" alt="Performance icon" />
+            <!--idea: same width and height of svg. track position-->
           </div>
-          <div class="f1Area">
+          <!--everything that follows goes on top of here-->
+          <section class="WhatYoullGet">
             <h2>What you'll get</h2>
             <img src="/images/frmHomepage.png" alt="LearnMate Homepage Image" />
-          </div>
+          </section>
 
-          <div class="c1Area">
-            <div class="c1Trail">
-              <img
-                src="/images/iconLearnPractice.png"
-                alt="Learn and Practice icon"
-              />
-            </div>
-            <div class="c1Info">
+          <section class="learnArea">
+            <div class="learnHero">
               <h1>Learn in Seconds</h1>
               <h2>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -141,9 +149,68 @@
                 />
               </div>
             </div>
-          </div>
+            <div class="interface">
+              <img src="/images/learning.png" alt="In lesson" />
+              <!--also add shadow-->
+            </div>
+          </section>
+
+          <section class="timeArea">
+            <div class="timeHero">
+              <h1>calendar. remade.</h1>
+              <h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h2>
+            </div>
+            <div class="interface">
+              <img
+                src="/images/frmTimeOrganiser.png"
+                alt="Time organiser image"
+              />
+            </div>
+          </section>
+
+          <section class="purpleArea">
+            <div class="purpleHero">
+              <div class="purpleInfo">
+                <h1>productivity: boosted.</h1>
+                <h2>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </h2>
+              </div>
+            </div>
+            <div class="interface">
+              <img
+                src="/images/frmAssignments.png"
+                alt="Assignments interface image"
+              />
+            </div>
+          </section>
+
+          <section class="performanceArea">
+            <div class="performanceHero">
+              <h1>performance: tracked.</h1>
+              <h2>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h2>
+            </div>
+            <div class="interface">
+              <img
+                src="/images/frmPerformance.png"
+                alt="Performance interface"
+              />
+            </div>
+          </section>
         </section>
+
+        <footer>
+          <h2>Any feedback or queries? Drop me an email!</h2>
+        </footer>
       </div>
+      <!--is the width of about 70% from center-->
     </div>
   </body>
 </html>

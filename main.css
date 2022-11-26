@@ -1,35 +1,57 @@
-body {
+* {
+  text-decoration: none;
   font-family: "Darker Grotesque", sans-serif;
 }
-body header {
+
+.container {
+  border: solid gray;
+}
+.container header {
   background: linear-gradient(91.5deg, #3ae395 42.59%, #52ea8f 57.87%);
   box-shadow: 0px 4px 8px -1px rgba(0, 0, 0, 0.25);
   border-radius: 48px;
   height: 75px;
-  margin: 25px;
   border-color: aqua;
-  display: flex;
+  z-index: 999;
   justify-content: space-between;
+  display: flex;
+  border: solid gray;
 }
-body header .navBarItem {
-  margin: 100px;
-}
-body header h1 {
+.container header a {
   font-size: 35px;
   color: #259d66;
+  font-weight: 700;
+  border: solid gray;
+  margin: 0;
 }
-body section {
-  display: block;
+.container header nav ul {
+  margin: 1rem 2rem;
+  border: solid gray;
 }
-body .hero {
-  display: block;
+.container header nav ul li {
+  display: inline-block;
+  margin: 0rem 1rem;
+  border: solid gray;
+}
+.container header nav ul a {
+  color: #3bb76e;
+  font-weight: 600;
+  border: solid gray;
+  position: relative;
+  font-size: 30px;
+}
+.container .infoContainer {
+  display: inline-block;
+  border: solid gray;
 }
 
-a {
-  text-decoration: none;
+@media (min-width: 960px) {
+  .container header {
+    border-radius: 0px;
+  }
 }
-
-.container {
-  display: flex;
-  justify-content: center;
+@media (max-width: 960px) {
+  .container header {
+    border-radius: 48px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -122,13 +122,13 @@
 }
 
 @media (max-width: 1200px) {
-  .outerContainer #roundRect {
+  .contLvl1 #roundRect {
     border-radius: 0px;
   }
   body {
     margin: 0;
   }
-  body .outerContainer {
+  body .contLvl1 {
     width: 100vw;
   }
 }/*# sourceMappingURL=main.css.map */

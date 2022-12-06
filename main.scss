@@ -131,14 +131,14 @@
   }
 }
 @media (max-width: 1200px) {
-  .outerContainer {
+  .contLvl1 {
     #roundRect {
       border-radius: 0px;
     }
   }
   body {
     margin: 0;
-    .outerContainer {
+    .contLvl1 {
       width: 100vw;
     }
   }
